@@ -17,6 +17,7 @@
     cursor: pointer;
     transition: .3s;
 }
+
 .primary-btn:hover,
 
 .primary-btn2:hover {
@@ -395,10 +396,12 @@ main {
     color: white;
     margin-top: 100px 0;
 }
-.careers-text h2{
+
+.careers-text h2 {
     font-size: 35px;
 }
-.careers-text p{
+
+.careers-text p {
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -422,15 +425,18 @@ main {
     gap: 120px;
     margin: 20px 0;
 }
-.left-list li{
-list-style: none;
-line-height: 28px;
+
+.left-list li {
+    list-style: none;
+    line-height: 28px;
 }
-.right-list li{
-list-style: none;
-text-align: right;
-line-height: 28px;
+
+.right-list li {
+    list-style: none;
+    text-align: right;
+    line-height: 28px;
 }
+
 .primary-btn-3 {
     padding: 13px 25px;
     border: none;
@@ -443,7 +449,8 @@ line-height: 28px;
     cursor: pointer;
     transition: .3s;
 }
-.primary-btn-3:hover{
+
+.primary-btn-3:hover {
     background: gray;
     color: white;
 }

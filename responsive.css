@@ -1,5 +1,3 @@
-
-
 /* For Mobile screen */
 @media screen and (max-width:576px) {
     .nav-container {
@@ -106,6 +104,51 @@
     .play-img-1 {
         height: aotu;
     }
+
+
+
+
+
+
+    /* careers-section  */
+    .careers-section {
+        width: 100%;
+        flex-direction: column;
+        padding: 40px 0px 0px auto;
+    }
+
+    .careers-text {
+        width: 90%;
+        color: white;
+        padding-top: 30px;
+
+    }
+
+    .careers-text h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .careers-text p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin: 25px 0;
+        font-size: 14px;
+    }
+
+    .careers-text-list {
+        gap: 0px;
+        margin: 20px 0;
+    }
+
+    .careers-img {
+        width: 100%;
+        margin-top: 40px;
+
+    }
+
 
     /* games-type-container start */
 
@@ -261,19 +304,79 @@
         position: relative;
         bottom: 100px;
         left: -15px;
+
     }
 
     .play-img-1 {
-        height: aotu;
+        /* height: auto; */
     }
+
+
+    /* careers-section  */
+    .careers-section {
+        width: 100%;
+        flex-direction: column;
+        padding: 40px 10px 0px 10px;
+        margin: 400px 0px 0px 0px;
+    }
+
+    .careers-text {
+        width: 90%;
+        color: white;
+
+
+
+    }
+
+    .careers-text h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .careers-text p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin: 25px 0;
+    }
+
+    .careers-text-list {
+        gap: 0px;
+        margin: 20px 0;
+    }
+
+    .careers-img {
+        width: 100%;
+        margin-top: 40px;
+
+    }
+
+    .careers-img img {
+        width: 100%;
+        margin-top: 40px;
+
+    }
+
+    .careers-text-list {
+        justify-content: space-around;
+    }
+
+    .primary-btn-3 {
+        width: 200px;
+        margin-left: 200px;
+        text-align: center;
+
+    }
+
 
     /* games-type-container start */
 
     .games-type-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 90%;
-        margin: 500px auto 0 70px;
+        /* width: 90%; */
+        margin: 10px auto 0;
         gap: 0px;
         padding: 0px;
     }
